@@ -1,0 +1,15 @@
+.stars a{
+  padding: 3px;
+  cursor:pointer;
+  opacity: 0.5
+}
+
+.stars:hover a {
+  opacity:1;
+}
+.stars a:hover ~a{
+  opacity:0.5;
+}
+.stars a.active{
+  opacity:1;
+}
